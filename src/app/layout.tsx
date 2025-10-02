@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Xadrez com IA Burra",
+  title: "Xadrez com IA",
   description: "Jogue xadrez contra uma IA burra usando OpenRouter",
 };
 
