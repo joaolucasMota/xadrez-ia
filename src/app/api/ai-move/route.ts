@@ -35,7 +35,6 @@ Escolha UM movimento da lista acima. Responda APENAS com o movimento escolhido, 
     const { text } = await generateText({
       model: openrouter('nousresearch/deephermes-3-llama-3-8b-preview:free'),
       prompt,
-      maxTokens: 20,
     });
 
     console.log('Resposta da IA:', text);
